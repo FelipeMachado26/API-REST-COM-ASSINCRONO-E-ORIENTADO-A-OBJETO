@@ -10,9 +10,8 @@ app.get('/',(req,res)=>{
     return res.json('tudo certo')
 })
 
-app.listen(process.env.PORT,() =>{
-    console.log('Servidor inicializado')
-})
+app.listen(3000)
+
 
 
 
